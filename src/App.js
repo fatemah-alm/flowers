@@ -1,4 +1,5 @@
 import "./App.css";
+import Displayproducts from "./components/Displayproducts";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
         src="https://cdn3.volusion.com/ywjzv.xdxbb/v/vspfiles/photos/80266-2.jpg?v-cache=1626951301"
         alt="flower shop"
       />
+
+      <Displayproducts />
     </div>
   );
 }
